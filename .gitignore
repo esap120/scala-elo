@@ -1,0 +1,37 @@
+# Scala files
+*.class
+*.log
+
+# SBT
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+out
+
+# Vim
+tags
+.*.swp
+.*.swo
+
+# Eclipse (Scale IDE)
+build
+.classpath
+.project
+.settings
+org.scala-ide.sdt.core/META-INF/MANIFEST.MF
+org.scala-ide.sdt.update-site/site.xml`
+
+# macOS
+.DS_Store
