@@ -1,0 +1,376 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+          <title></title>
+          <meta name="description" content="" />
+          <meta name="keywords" content="" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../lib/index.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../lib/jquery.js"></script>
+      <script type="text/javascript" src="../lib/jquery.panzoom.min.js"></script>
+      <script type="text/javascript" src="../lib/jquery.mousewheel.min.js"></script>
+      <script type="text/javascript" src="../lib/index.js"></script>
+      <script type="text/javascript" src="../index.js"></script>
+      <script type="text/javascript" src="../lib/scheduler.js"></script>
+      <script type="text/javascript" src="../lib/template.js"></script>
+      <script type="text/javascript" src="../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+        /* this variable can be used by the JS to determine the path to the root document */
+        var toRoot = '../';
+      </script>
+    
+        </head>
+        <body>
+      <div id="search">
+        <span id="doc-title"><span id="doc-version"></span></span>
+        <span class="close-results"><span class="left">&lt;</span> Back</span>
+        <div id="textfilter">
+          <span class="input">
+            <input autocapitalize="none" placeholder="Search" id="index-input" type="text" accesskey="/" />
+            <i class="clear material-icons"></i>
+            <i id="search-icon" class="material-icons"></i>
+          </span>
+        </div>
+    </div>
+      <div id="search-results">
+        <div id="search-progress">
+          <div id="progress-fill"></div>
+        </div>
+        <div id="results-content">
+          <div id="entity-results"></div>
+          <div id="member-results"></div>
+        </div>
+      </div>
+      <div id="content-scroll-container" style="-webkit-overflow-scrolling: touch;">
+        <div id="content-container" style="-webkit-overflow-scrolling: touch;">
+          <div id="subpackage-spacer">
+            <div id="packages">
+              <h1>Packages</h1>
+              <ul>
+                <li name="_root_.root" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="_root_"></a><a id="root:_root_"></a>
+      <span class="permalink">
+      <a href="index.html#_root_" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="../index.html"><span class="name">root</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../index.html" class="extype" name="_root_">root</a></dd></dl></div>
+    </li><li name="_root_.elo" visbl="pub" class="indented1 current" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="elo"></a><a id="elo:elo"></a>
+      <span class="permalink">
+      <a href="index.html#elo" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">elo</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../index.html" class="extype" name="_root_">root</a></dd></dl></div>
+    </li><li class="current-entities indented1">
+                        <span class="separator"></span>
+                        <a class="object" href="EloEngine$.html" title="Calculates the player's rating based on their actual performance against their expected performance Formula is: R_new = R_old + K(Score_actual - Score_expected) where R_new is there new rating, R_old is their old rating, K is the K-factor coefficient, Score_actual is their score from their games and Score_expected is the score that was expected."></a>
+                        <a href="EloEngine$.html" title="Calculates the player's rating based on their actual performance against their expected performance Formula is: R_new = R_old + K(Score_actual - Score_expected) where R_new is there new rating, R_old is their old rating, K is the K-factor coefficient, Score_actual is their score from their games and Score_expected is the score that was expected.">EloEngine</a>
+                      </li><li class="current-entities indented1">
+                        <span class="separator"></span>
+                        <a class="class" href="Game.html" title="Tracks the result of a game between two players, maintaining the players, game result, and the player's ratings during that particular game"></a>
+                        <a href="Game.html" title="Tracks the result of a game between two players, maintaining the players, game result, and the player's ratings during that particular game">Game</a>
+                      </li><li class="current-entities indented1">
+                        <span class="separator"></span>
+                        <a class="object" href="GameResult$.html" title="Enumeration for game results"></a>
+                        <a href="GameResult$.html" title="Enumeration for game results">GameResult</a>
+                      </li><li class="current-entities indented1">
+                        <span class="separator"></span>
+                        <a class="object" href="KFactor$.html" title="Enumeration for which KFactor Formula to use"></a>
+                        <a href="KFactor$.html" title="Enumeration for which KFactor Formula to use">KFactor</a>
+                      </li><li class="current-entities indented1">
+                        <span class="separator"></span>
+                        <a class="class" href="Matchup.html" title="Allows for creating matches before knowing winner, useful for matchmaking a pool of players or used to create a tournament of players"></a>
+                        <a href="Matchup.html" title="Allows for creating matches before knowing winner, useful for matchmaking a pool of players or used to create a tournament of players">Matchup</a>
+                      </li><li class="current-entities indented1">
+                        <span class="separator"></span>
+                        <a class="class" href="Player.html" title="Holds player information and is backed by an ELO rating engine to update the player's rating."></a>
+                        <a href="Player.html" title="Holds player information and is backed by an ELO rating engine to update the player's rating.">Player</a>
+                      </li>
+              </ul>
+            </div>
+          </div>
+          <div id="content">
+            <body class="package value">
+      <div id="definition">
+        <div class="big-circle package">p</div>
+        
+        <h1>elo<span class="permalink">
+      <a href="../elo/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span></h1>
+        
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">elo</span>
+      </span>
+      </h4>
+
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div class="toggle"></div>
+        <div id="memberfilter">
+          <i class="material-icons arrow"></i>
+          <span class="input">
+            <input id="mbrsel-input" placeholder="Filter all members" type="text" accesskey="/" />
+          </span>
+          <i class="clear material-icons"></i>
+        </div>
+        <div id="filterby">
+          <div id="order">
+            <span class="filtertype">Ordering</span>
+            <ol>
+              
+              <li class="alpha in"><span>Alphabetic</span></li>
+              
+            </ol>
+          </div>
+          
+          <div id="visbl">
+              <span class="filtertype">Visibility</span>
+              <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+            </div>
+        </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="elo.Game" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="GameextendsAnyRef"></a><a id="Game:Game"></a>
+      <span class="permalink">
+      <a href="../elo/index.html#GameextendsAnyRef" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a title="Tracks the result of a game between two players, maintaining the players, game result, and the player's ratings during that particular game" href="Game.html"><span class="name">Game</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      
+      <p class="shortcomment cmt">Tracks the result of a game between two players, maintaining the players, game result,
+and the player's ratings during that particular game
+</p>
+    </li><li name="elo.Matchup" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="MatchupextendsAnyRef"></a><a id="Matchup:Matchup"></a>
+      <span class="permalink">
+      <a href="../elo/index.html#MatchupextendsAnyRef" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a title="Allows for creating matches before knowing winner, useful for matchmaking a pool of players or used to create a tournament of players" href="Matchup.html"><span class="name">Matchup</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      
+      <p class="shortcomment cmt">Allows for creating matches before knowing winner, useful for matchmaking a pool of players
+or used to create a tournament of players</p><div class="fullcomment"><div class="comment cmt"><p>Allows for creating matches before knowing winner, useful for matchmaking a pool of players
+or used to create a tournament of players</p><p>Players can play matches against other players, here is an example following
+the example from wikipedia <a href="https://en.wikipedia.org/wiki/Elo_rating_system#Mathematical_details" target="_blank">https://en.wikipedia.org/wiki/Elo_rating_system#Mathematical_details</a></p><pre><span class="kw">val</span> playerA = <span class="kw">new</span> Player(rating = <span class="num">1613</span>)
+<span class="kw">val</span> opponent1 = <span class="kw">new</span> Player(rating = <span class="num">1609</span>)
+<span class="kw">val</span> opponent2 = <span class="kw">new</span> Player(rating = <span class="num">1477</span>)
+<span class="kw">val</span> opponent3 = <span class="kw">new</span> Player(rating = <span class="num">1388</span>)
+<span class="kw">val</span> opponent4 = <span class="kw">new</span> Player(rating = <span class="num">1586</span>)
+<span class="kw">val</span> opponent5 = <span class="kw">new</span> Player(rating = <span class="num">1720</span>)
+
+<span class="kw">val</span> matchOne = playerA plays opponent1
+<span class="kw">val</span> matchTwo = playerA plays opponent2
+<span class="kw">val</span> matchThree = playerA plays opponent3
+<span class="kw">val</span> matchFour = playerA plays opponent4
+<span class="kw">val</span> matchFive = playerA plays opponent5
+
+matchOne winner opponent1
+matchTwo.draw()
+matchThree loser opponent3
+matchFour.winner(playerA)
+matchFive.loser(playerA)
+
+playerA.updateRating(KFactor.USCF) <span class="cmt">// If not specified the Simple K-Factor is used</span>
+playerA.rating <span class="cmt">// playerA now has a rating of 1601</span></pre></div></div>
+    </li><li name="elo.Player" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="PlayerextendsAnyRef"></a><a id="Player:Player"></a>
+      <span class="permalink">
+      <a href="../elo/index.html#PlayerextendsAnyRef" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a title="Holds player information and is backed by an ELO rating engine to update the player's rating." href="Player.html"><span class="name">Player</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      
+      <p class="shortcomment cmt">Holds player information and is backed by an ELO rating engine to update the player's rating.</p><div class="fullcomment"><div class="comment cmt"><p>Holds player information and is backed by an ELO rating engine to update the player's rating.
+Also contains tournament and game history.</p><p>Players can play games against other players, here is an example following
+the example from wikipedia <a href="https://en.wikipedia.org/wiki/Elo_rating_system#Mathematical_details" target="_blank">https://en.wikipedia.org/wiki/Elo_rating_system#Mathematical_details</a></p><pre><span class="kw">val</span> playerA = <span class="kw">new</span> Player(rating = <span class="num">1613</span>)
+<span class="kw">val</span> opponent1 = <span class="kw">new</span> Player(rating = <span class="num">1609</span>)
+<span class="kw">val</span> opponent2 = <span class="kw">new</span> Player(rating = <span class="num">1477</span>)
+<span class="kw">val</span> opponent3 = <span class="kw">new</span> Player(rating = <span class="num">1388</span>)
+<span class="kw">val</span> opponent4 = <span class="kw">new</span> Player(rating = <span class="num">1586</span>)
+<span class="kw">val</span> opponent5 = <span class="kw">new</span> Player(rating = <span class="num">1720</span>)
+
+playerA loses opponent1
+playerA draws opponent2
+playerA wins opponent3
+playerA wins opponent4
+playerA loses opponent5
+
+playerA.updateRating(KFactor.USCF) <span class="cmt">// If not specified the Simple K-Factor is used</span>
+playerA.rating <span class="cmt">// playerA now has a rating of 1601</span></pre><p>The class can be extended as shown:</p><pre><span class="cmt">// An example class that requires a name, rating, and player's always start at 0 games.</span>
+<span class="kw">class</span> NamedPlayer(<span class="kw">val</span> name: <span class="std">String</span>, rating: <span class="std">Int</span>) <span class="kw">extends</span> Player(rating, <span class="num">0</span>) {
+
+  <span class="cmt">// Some possible methods that can be added.</span>
+  <span class="kw">def</span> isPro: <span class="std">Boolean</span> = <span class="kw">if</span> (rating &gt; <span class="num">2400</span>) <span class="kw">true</span> <span class="kw">else</span> <span class="kw">false</span>
+  <span class="kw">def</span> isNew: <span class="std">Boolean</span> = <span class="kw">if</span> (gamesPlayed &lt; <span class="num">30</span>) <span class="kw">true</span> <span class="kw">else</span> <span class="kw">false</span>
+
+  <span class="cmt">// Change the default KFactor to USCF.</span>
+  <span class="kw">def</span> updateRating(): <span class="std">Unit</span> = <span class="kw">super</span>.updateRating(KFactor.USCF)
+
+  <span class="cmt">// Or create a custom KFactor</span>
+  <span class="kw">def</span> updateRating(): <span class="std">Unit</span> = {
+    <span class="kw">val</span> customerFactor = <span class="kw">if</span> (isPro) <span class="num">10</span> <span class="kw">else</span> <span class="num">400</span> / gamesPlayed
+    <span class="kw">super</span>.updateRating(customerFactor)
+  }
+}
+
+<span class="kw">val</span> myPlayer = <span class="kw">new</span> NamedPlayer(<span class="lit">"My Player Name"</span>, <span class="num">1613</span>)</pre></div></div>
+    </li></ol>
+            </div>
+
+        
+
+        <div class="values members">
+              <h3>Value Members</h3>
+              <ol>
+                <li name="elo.EloEngine" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="EloEngine"></a><a id="EloEngine:EloEngine"></a>
+      <span class="permalink">
+      <a href="../elo/index.html#EloEngine" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a title="Calculates the player's rating based on their actual performance against their expected performance Formula is: R_new = R_old + K(Score_actual - Score_expected) where R_new is there new rating, R_old is their old rating, K is the K-factor coefficient, Score_actual is their score from their games and Score_expected is the score that was expected." href="EloEngine$.html"><span class="name">EloEngine</span></a>
+      </span>
+      
+      <p class="shortcomment cmt">Calculates the player's rating based on their actual performance against their expected performance
+Formula is: R_new = R_old + K(Score_actual - Score_expected) where R_new is there new rating,
+R_old is their old rating, K is the K-factor coefficient, Score_actual is their score
+from their games and Score_expected is the score that was expected.</p><div class="fullcomment"><div class="comment cmt"><p>Calculates the player's rating based on their actual performance against their expected performance
+Formula is: R_new = R_old + K(Score_actual - Score_expected) where R_new is there new rating,
+R_old is their old rating, K is the K-factor coefficient, Score_actual is their score
+from their games and Score_expected is the score that was expected.</p><p>For more details @see <a href="https://en.wikipedia.org/wiki/Elo_rating_system" target="_blank">https://en.wikipedia.org/wiki/Elo_rating_system</a>
+</p></div></div>
+    </li><li name="elo.GameResult" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="GameResult"></a><a id="GameResult:GameResult"></a>
+      <span class="permalink">
+      <a href="../elo/index.html#GameResult" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a title="Enumeration for game results" href="GameResult$.html"><span class="name">GameResult</span></a><span class="result"> extends <span class="extype" name="scala.Enumeration">Enumeration</span></span>
+      </span>
+      
+      <p class="shortcomment cmt">Enumeration for game results
+</p>
+    </li><li name="elo.KFactor" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="KFactor"></a><a id="KFactor:KFactor"></a>
+      <span class="permalink">
+      <a href="../elo/index.html#KFactor" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a title="Enumeration for which KFactor Formula to use" href="KFactor$.html"><span class="name">KFactor</span></a><span class="result"> extends <span class="extype" name="scala.Enumeration">Enumeration</span></span>
+      </span>
+      
+      <p class="shortcomment cmt">Enumeration for which KFactor Formula to use</p><div class="fullcomment"><div class="comment cmt"><p>Enumeration for which KFactor Formula to use</p></div><dl class="attributes block"> <dt>See also</dt><dd><span class="cmt"><p><a href="https://en.wikipedia.org/wiki/Elo_rating_system#Most_accurate_K-factor" target="_blank">https://en.wikipedia.org/wiki/Elo_rating_system#Most_accurate_K-factor</a></p></span></dd></dl></div>
+    </li>
+              </ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+    </body>
+          </div>
+        </div>
+      </div>
+    </body>
+      </html>
