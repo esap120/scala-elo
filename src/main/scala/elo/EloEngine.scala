@@ -72,7 +72,6 @@ object EloEngine {
     * @param expectedScore Expected score of played games @see [[EloEngine.calculateExpectedScore]]
     * @param kFactor K-Factor value
     * @return Returns rating of player
-    * @return
     */
   def calculateRating(currentRating: Int, actualScore: Double,
                       expectedScore: Double, kFactor: Double): Int = {
