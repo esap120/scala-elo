@@ -23,7 +23,7 @@ class Game(val player: Player, val opponent: Player, val result: GameResult) {
   val opponentRating: Int = opponent.rating
 
   // Generates game from the opposing perspective
-  private[elo] def inverse(): Game = {
+  private[scala_elo] def inverse(): Game = {
     new Game(opponent, player,
       if (result == GameResult.WIN)
         GameResult.LOSS
@@ -35,7 +35,7 @@ class Game(val player: Player, val opponent: Player, val result: GameResult) {
   }
 
   // Use to correctly calculate ELO score, wins are worth 1, draws 0.5 and losses 0
-  private[elo] def score: Double = {
+  private[scala_elo] def score: Double = {
     val score = result match {
       case GameResult.DRAW => 0.5
       case GameResult.WIN =>  1
