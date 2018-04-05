@@ -1,6 +1,6 @@
-package elo
+package com.github.esap120.scala_elo
 
-import elo.GameResult.GameResult
+import GameResult.GameResult
 
 /**
   * Tracks the result of a game between two players, maintaining the players, game result,

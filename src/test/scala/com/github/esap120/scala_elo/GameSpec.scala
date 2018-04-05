@@ -1,4 +1,4 @@
-package elo
+package com.github.esap120.scala_elo
 
 import org.scalatest.{FlatSpec, Matchers}
 

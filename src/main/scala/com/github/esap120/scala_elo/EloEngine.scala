@@ -1,6 +1,6 @@
-package elo
+package com.github.esap120.scala_elo
 
-import elo.KFactor.KFactor
+import KFactor.KFactor
 
 
 /**

@@ -1,4 +1,4 @@
-package elo
+package com.github.esap120.scala_elo
 
 /**
   * Enumeration for which KFactor Formula to use

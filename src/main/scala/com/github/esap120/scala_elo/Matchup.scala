@@ -1,4 +1,4 @@
-package elo
+package com.github.esap120.scala_elo
 
 /**
   * Allows for creating matches before knowing winner, useful for matchmaking a pool of players
