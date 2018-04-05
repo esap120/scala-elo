@@ -40,6 +40,7 @@ publishTo := Some(
 
 import ReleaseTransformations._
 releaseCrossBuild := true // true if you cross-build the project for multiple Scala versions
+releasePublishArtifactsAction := PgpKeys.publishSigned.value
 releaseProcess := Seq[ReleaseStep](
   checkSnapshotDependencies,
   inquireVersions,
