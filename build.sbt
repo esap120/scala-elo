@@ -1,4 +1,5 @@
 name := "scala-elo"
+organization := "com.github.esap120"
 
 scalaVersion := "2.12.4"
 
